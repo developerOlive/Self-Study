@@ -32,13 +32,14 @@ LIMIT 10;
 
 [ 최근에 가입한 회원 중 9, 10번째 가입한 회원 조회 ]
 // 8번째 row부터 시작해서 총 2개의 row만 조회하라는 의미
-// row는 0부터 시작함! 8은 9번쨰 row를 의미함 
+// row는 0부터 시작함! 8은 9번쨰 row를 의미함
+
 SELECT * FROM member
 ORDER BY sign_up_day DESC 
 LIMIT 8, 2;
 
 
-
+Cancel changes
 [ menu 테이블의 row들을 price 컬럼 기준으로 내림차순 정렬하고, 가격이 비싼 6~8위 데이터 조회 ]
 SELECT * FROM menu 
 ORDER BY price DESC
