@@ -4,7 +4,7 @@
 - ' * '(Asterisk) : 테이블의 모든 컬럼값을 조회한다는 의미
 - FROM : 조회하고 싶은 테이블명 기재
 
-```roomsql
+```sql
 [ 30대만 제외하여 조회 ]
 SELECT * FROM member 
 WHERE age NOT BETWEEN 30 AND 39;
