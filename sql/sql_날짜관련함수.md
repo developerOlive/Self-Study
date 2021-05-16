@@ -12,8 +12,8 @@ WHERE YEAR(birthday) = '1992';
 
 [ 6,7,8월에 가입한 회원들만 조회하기 ]
 // MONTH 함수를 사용하면 날짜 값에서 월만 뽑아낼 수 있음
-
 // IN 조건표현식을 활용하여 6,7,8월만 sorting
+
 SELECT * FROM member
 WHERE MONTH(sign_up_day) IN (6, 7, 8);
 
