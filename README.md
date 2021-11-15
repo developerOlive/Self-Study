@@ -1,2 +1,5 @@
-# TIL
-오늘 하루 배우고 느낀점을 정리합니다.
+# Self-Study
+
+Java
+sql
+Java Script
