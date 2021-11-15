@@ -1,5 +1,5 @@
 # Self-Study
 
-Java
-sql
-Java Script
+- Java
+- sql
+- Java Script
